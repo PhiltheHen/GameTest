@@ -32,6 +32,7 @@
 		3A2EDE2D1BD9889A00CCF5EE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2EDE2C1BD9889A00CCF5EE /* SystemConfiguration.framework */; };
 		3A2EDE2F1BD988A500CCF5EE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2EDE2E1BD988A500CCF5EE /* libz.tbd */; };
 		3A2EDE311BD988AB00CCF5EE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2EDE301BD988AB00CCF5EE /* libsqlite3.tbd */; };
+		3A2EDE341BD98C4700CCF5EE /* GameScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EDE331BD98C4700CCF5EE /* GameScore.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,8 @@
 		3A2EDE2C1BD9889A00CCF5EE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3A2EDE2E1BD988A500CCF5EE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		3A2EDE301BD988AB00CCF5EE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3A2EDE321BD98C4700CCF5EE /* GameScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScore.h; sourceTree = "<group>"; };
+		3A2EDE331BD98C4700CCF5EE /* GameScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				3A2EDDE01BD986C400CCF5EE /* AppDelegate.m */,
 				3A2EDDE21BD986C400CCF5EE /* MainViewController.h */,
 				3A2EDDE31BD986C400CCF5EE /* MainViewController.m */,
+				3A2EDE321BD98C4700CCF5EE /* GameScore.h */,
+				3A2EDE331BD98C4700CCF5EE /* GameScore.m */,
 				3A2EDDE51BD986C400CCF5EE /* Main.storyboard */,
 				3A2EDDE81BD986C400CCF5EE /* Assets.xcassets */,
 				3A2EDDEA1BD986C400CCF5EE /* LaunchScreen.storyboard */,
@@ -346,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2EDE341BD98C4700CCF5EE /* GameScore.m in Sources */,
 				3A2EDDE41BD986C400CCF5EE /* MainViewController.m in Sources */,
 				3A2EDDE11BD986C400CCF5EE /* AppDelegate.m in Sources */,
 				3A2EDDDE1BD986C400CCF5EE /* main.m in Sources */,
