@@ -16,7 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    PFObject *myScore = [PFObject objectWithClassName:@"GameObject"];
+    myScore[@"score"] = @20;
+    myScore[@"name"] = @"Lin";
+
+    [myScore saveInBackgroundWithBlock:^(BOOL succeeded, NSError * _Nullable error) {
+
+        if (succeeded){
+            NSLog(@"Great Success!");
+        } else {
+            NSLog(@"...NOT");
+        }
+    }];
+
+
+
 }
 
 - (void)didReceiveMemoryWarning {
